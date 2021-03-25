@@ -23,20 +23,20 @@
 
 <body>
 
-  <?php 
+  <?php
 
-    include "./component/Header.php";
-    include "./component/Index-main.php";
-    include "./component/Footer.php";
-    include "./component/Index-popup.php";
-    include "./component/Button-scroll-top.php";
+  include "component/Header.php";
+  include "component/Index_main.php";
+  include "component/Footer.php";
+  include "component/Index_Popup.php";
+  include "component/Button_Scroll_top.php";
 
   ?>
 
 
 
   <!-- Glide Carousel Script -->
-<script src="https://cdnjs.cloudflare.com/ajax/libs/Glide.js/3.4.1/glide.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/Glide.js/3.4.1/glide.min.js"></script>
   <!-- Animate On Scroll -->
   <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
 

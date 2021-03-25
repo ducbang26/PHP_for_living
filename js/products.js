@@ -32,19 +32,19 @@ const getProducts = async () => {
                         <h3>${product.title}</h3>
                         <div class="rating">
                           <svg>
-                            <use xlink:href="./images/sprite.svg#icon-star-full"></use>
+                            <use xlink:href="./img/sprite.svg#icon-star-full"></use>
                           </svg>
                           <svg>
-                            <use xlink:href="./images/sprite.svg#icon-star-full"></use>
+                            <use xlink:href="./img/sprite.svg#icon-star-full"></use>
                           </svg>
                           <svg>
-                            <use xlink:href="./images/sprite.svg#icon-star-full"></use>
+                            <use xlink:href="./img/sprite.svg#icon-star-full"></use>
                           </svg>
                           <svg>
-                            <use xlink:href="./images/sprite.svg#icon-star-full"></use>
+                            <use xlink:href="./img/sprite.svg#icon-star-full"></use>
                           </svg>
                           <svg>
-                            <use xlink:href="./images/sprite.svg#icon-star-empty"></use>
+                            <use xlink:href="./img/sprite.svg#icon-star-empty"></use>
                           </svg>
                         </div>
                         <div class="product__price">
@@ -56,21 +56,21 @@ const getProducts = async () => {
                         <li>
                           <a data-tip="Quick View" data-place="left" href="#">
                             <svg>
-                              <use xlink:href="./images/sprite.svg#icon-eye"></use>
+                              <use xlink:href="./img/sprite.svg#icon-eye"></use>
                             </svg>
                           </a>
                         </li>
                         <li>
                           <a data-tip="Add To Wishlist" data-place="left" href="#">
                             <svg>
-                              <use xlink:href="./images/sprite.svg#icon-heart-o"></use>
+                              <use xlink:href="./img/sprite.svg#icon-heart-o"></use>
                             </svg>
                           </a>
                         </li>
                         <li>
                           <a data-tip="Add To Compare" data-place="left" href="#">
                             <svg>
-                              <use xlink:href="./images/sprite.svg#icon-loop2"></use>
+                              <use xlink:href="./img/sprite.svg#icon-loop2"></use>
                             </svg>
                           </a>
                         </li>
@@ -151,7 +151,7 @@ const getProducts = async () => {
         const target = e.target.closest("img");
         if (!target) return;
         const id = target.id.slice(3);
-        changeImage(`./images/products/iPhone/iphone${id}.jpeg`, id);
+        changeImage(`./img/products/iPhone/iphone${id}.jpeg`, id);
       });
     }
   });

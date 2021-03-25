@@ -30,7 +30,7 @@
                     <div>
                         <span>
                             <svg>
-                                <use xlink:href="./images/sprite.svg#icon-location"></use>
+                                <use xlink:href="./img/sprite.svg#icon-location"></use>
                             </svg>
                         </span>
                         42 Dream House, Dreammy street, 7131 Dreamville, USA
@@ -38,7 +38,7 @@
                     <div>
                         <span>
                             <svg>
-                                <use xlink:href="./images/sprite.svg#icon-envelop"></use>
+                                <use xlink:href="./img/sprite.svg#icon-envelop"></use>
                             </svg>
                         </span>
                         company@gmail.com
@@ -46,7 +46,7 @@
                     <div>
                         <span>
                             <svg>
-                                <use xlink:href="./images/sprite.svg#icon-phone"></use>
+                                <use xlink:href="./img/sprite.svg#icon-phone"></use>
                             </svg>
                         </span>
                         456-456-4512
@@ -54,7 +54,7 @@
                     <div>
                         <span>
                             <svg>
-                                <use xlink:href="./images/sprite.svg#icon-paperplane"></use>
+                                <use xlink:href="./img/sprite.svg#icon-paperplane"></use>
                             </svg>
                         </span>
                         Dream City, USA

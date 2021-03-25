@@ -2,12 +2,12 @@
     <div class="popup__content">
       <div class="popup__close">
         <svg>
-          <use xlink:href="./images/sprite.svg#icon-cross"></use>
+          <use xlink:href="./img/sprite.svg#icon-cross"></use>
         </svg>
       </div>
       <div class="popup__left">
         <div class="popup-img__container">
-          <img class="popup__img" src="./images/popup.jpg" alt="popup">
+          <img class="popup__img" src="./img/popup.jpg" alt="popup">
         </div>
       </div>
       <div class="popup__right">

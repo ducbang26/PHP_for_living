@@ -16,7 +16,7 @@
   <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
 
   <!-- Custom StyleSheet -->
-  <link rel="stylesheet" href="styles.css" />
+  <link rel="stylesheet" href="style.css" />
 
   <title>Index</title>
 </head>
@@ -26,10 +26,10 @@
   <?php 
 
     include "./component/Header.php";
-    include "./component/Index-main.php";
+    include "./component/Index_main.php";
     include "./component/Footer.php";
-    include "./component/Index-popup.php";
-    include "./component/Button-scroll-top.php";
+    include "./component/Index_popup.php";
+    include "./component/Button_scroll_top.php";
 
   ?>
 

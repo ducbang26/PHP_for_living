@@ -18,7 +18,7 @@
                                     <tr>
                                         <td class="product__thumbnail">
                                             <a href="#">
-                                                <img src="./images/products/iPhone/iphone6.jpeg" alt="">
+                                                <img src="./img/products/iPhone/iphone6.jpeg" alt="">
                                             </a>
                                         </td>
                                         <td class="product__name">
@@ -36,13 +36,13 @@
                                                 <div>
                                                     <span class="minus-btn">
                                                         <svg>
-                                                            <use xlink:href="./images/sprite.svg#icon-minus"></use>
+                                                            <use xlink:href="./img/sprite.svg#icon-minus"></use>
                                                         </svg>
                                                     </span>
                                                     <input type="text" min="1" value="1" max="10" class="counter-btn">
                                                     <span class="plus-btn">
                                                         <svg>
-                                                            <use xlink:href="./images/sprite.svg#icon-plus"></use>
+                                                            <use xlink:href="./img/sprite.svg#icon-plus"></use>
                                                         </svg>
                                                     </span>
                                                 </div>
@@ -54,7 +54,7 @@
                                             </div>
                                             <a href="#" class="remove__cart-item">
                                                 <svg>
-                                                    <use xlink:href="./images/sprite.svg#icon-trash"></use>
+                                                    <use xlink:href="./img/sprite.svg#icon-trash"></use>
                                                 </svg>
                                             </a>
                                         </td>
@@ -62,7 +62,7 @@
                                     <tr>
                                         <td class="product__thumbnail">
                                             <a href="#">
-                                                <img src="./images/products/sumsung/samsung5.jpeg" alt="">
+                                                <img src="./img/products/sumsung/samsung5.jpeg" alt="">
                                             </a>
                                         </td>
                                         <td class="product__name">
@@ -80,13 +80,13 @@
                                                 <div>
                                                     <span class="minus-btn">
                                                         <svg>
-                                                            <use xlink:href="./images/sprite.svg#icon-minus"></use>
+                                                            <use xlink:href="./img/sprite.svg#icon-minus"></use>
                                                         </svg>
                                                     </span>
                                                     <input type="text" min="1" value="1" max="10" class="counter-btn">
                                                     <span class="plus-btn">
                                                         <svg>
-                                                            <use xlink:href="./images/sprite.svg#icon-plus"></use>
+                                                            <use xlink:href="./img/sprite.svg#icon-plus"></use>
                                                         </svg>
                                                     </span>
                                                 </div>
@@ -98,7 +98,7 @@
                                             </div>
                                             <a href="#" class="remove__cart-item">
                                                 <svg>
-                                                    <use xlink:href="./images/sprite.svg#icon-trash"></use>
+                                                    <use xlink:href="./img/sprite.svg#icon-trash"></use>
                                                 </svg>
                                             </a>
                                         </td>
@@ -106,7 +106,7 @@
                                     <tr>
                                         <td class="product__thumbnail">
                                             <a href="#">
-                                                <img src="./images/products/sumsung/samsung2.jpeg" alt="">
+                                                <img src="./img/products/sumsung/samsung2.jpeg" alt="">
                                             </a>
                                         </td>
                                         <td class="product__name">
@@ -124,13 +124,13 @@
                                                 <div>
                                                     <span class="minus-btn">
                                                         <svg>
-                                                            <use xlink:href="./images/sprite.svg#icon-minus"></use>
+                                                            <use xlink:href="./img/sprite.svg#icon-minus"></use>
                                                         </svg>
                                                     </span>
                                                     <input type="text" min="1" value="1" max="10" class="counter-btn">
                                                     <span class="plus-btn">
                                                         <svg>
-                                                            <use xlink:href="./images/sprite.svg#icon-plus"></use>
+                                                            <use xlink:href="./img/sprite.svg#icon-plus"></use>
                                                         </svg>
                                                     </span>
                                                 </div>
@@ -142,7 +142,7 @@
                                             </div>
                                             <a href="#" class="remove__cart-item">
                                                 <svg>
-                                                    <use xlink:href="./images/sprite.svg#icon-trash"></use>
+                                                    <use xlink:href="./img/sprite.svg#icon-trash"></use>
                                                 </svg>
                                             </a>
                                         </td>
@@ -150,7 +150,7 @@
                                     <tr>
                                         <td class="product__thumbnail">
                                             <a href="#">
-                                                <img src="./images/products/iPhone/iphone4.jpeg" alt="">
+                                                <img src="./img/products/iPhone/iphone4.jpeg" alt="">
                                             </a>
                                         </td>
                                         <td class="product__name">
@@ -168,13 +168,13 @@
                                                 <div>
                                                     <span class="minus-btn">
                                                         <svg>
-                                                            <use xlink:href="./images/sprite.svg#icon-minus"></use>
+                                                            <use xlink:href="./img/sprite.svg#icon-minus"></use>
                                                         </svg>
                                                     </span>
                                                     <input type="text" min="1" value="1" max="10" class="counter-btn">
                                                     <span class="plus-btn">
                                                         <svg>
-                                                            <use xlink:href="./images/sprite.svg#icon-plus"></use>
+                                                            <use xlink:href="./img/sprite.svg#icon-plus"></use>
                                                         </svg>
                                                     </span>
                                                 </div>
@@ -186,7 +186,7 @@
                                             </div>
                                             <a href="#" class="remove__cart-item">
                                                 <svg>
-                                                    <use xlink:href="./images/sprite.svg#icon-trash"></use>
+                                                    <use xlink:href="./img/sprite.svg#icon-trash"></use>
                                                 </svg>
                                             </a>
                                         </td>
@@ -235,7 +235,7 @@
                     <div class="facility__box">
                         <div class="facility-img__container">
                             <svg>
-                                <use xlink:href="./images/sprite.svg#icon-airplane"></use>
+                                <use xlink:href="./img/sprite.svg#icon-airplane"></use>
                             </svg>
                         </div>
                         <p>FREE SHIPPING WORLD WIDE</p>
@@ -244,7 +244,7 @@
                     <div class="facility__box">
                         <div class="facility-img__container">
                             <svg>
-                                <use xlink:href="./images/sprite.svg#icon-credit-card-alt"></use>
+                                <use xlink:href="./img/sprite.svg#icon-credit-card-alt"></use>
                             </svg>
                         </div>
                         <p>100% MONEY BACK GUARANTEE</p>
@@ -253,7 +253,7 @@
                     <div class="facility__box">
                         <div class="facility-img__container">
                             <svg>
-                                <use xlink:href="./images/sprite.svg#icon-credit-card"></use>
+                                <use xlink:href="./img/sprite.svg#icon-credit-card"></use>
                             </svg>
                         </div>
                         <p>MANY PAYMENT GATWAYS</p>
@@ -262,7 +262,7 @@
                     <div class="facility__box">
                         <div class="facility-img__container">
                             <svg>
-                                <use xlink:href="./images/sprite.svg#icon-headphones"></use>
+                                <use xlink:href="./img/sprite.svg#icon-headphones"></use>
                             </svg>
                         </div>
                         <p>24/7 ONLINE SUPPORT</p>

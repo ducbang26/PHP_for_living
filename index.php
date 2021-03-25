@@ -28,8 +28,8 @@
     include "./component/Header.php";
     include "./component/Index_main.php";
     include "./component/Footer.php";
-    include "./component/Index_popup.php";
-    include "./component/Button_scroll_top.php";
+    include "./component/Index_Popup.php";
+    include "./component/Button_Scroll_top.php";
 
   ?>
 

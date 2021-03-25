@@ -18,7 +18,7 @@
   <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
 
   <!-- Custom StyleSheet -->
-  <link rel="stylesheet" href="styles.css" />
+  <link rel="stylesheet" href="style.css" />
 
   <title>Product</title>
 </head>
@@ -28,14 +28,14 @@
   <?php 
         include "./component/Header.php";
 
-        include "./component/Product-main.php";
+        include "./component/Product_main.php";
 
         // <!-- Footer -->
 
         include "./component/Footer.php";
 
         //<!-- Go To -->
-        include "./component/Button-scroll-top.php";
+        include "./component/Button_scroll_top.php";
 
   ?>
 

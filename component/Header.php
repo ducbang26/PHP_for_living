@@ -4,7 +4,7 @@
                 <nav class="nav">
                     <div class="nav__hamburger">
                         <svg>
-                            <use xlink:href="./images/sprite.svg#icon-menu"></use>
+                            <use xlink:href="./img/sprite.svg#icon-menu"></use>
                         </svg>
                     </div>
 
@@ -19,7 +19,7 @@
                             <span class="nav__category">PHONE</span>
                             <a href="#" class="close__toggle">
                                 <svg>
-                                    <use xlink:href="./images/sprite.svg#icon-cross"></use>
+                                    <use xlink:href="./img/sprite.svg#icon-cross"></use>
                                 </svg>
                             </a>
                         </div>
@@ -42,19 +42,19 @@
                     <div class="nav__icons">
                         <a href="#" class="icon__item">
                             <svg class="icon__user">
-                                <use xlink:href="./images/sprite.svg#icon-user"></use>
+                                <use xlink:href="./img/sprite.svg#icon-user"></use>
                             </svg>
                         </a>
 
                         <a href="#" class="icon__item">
                             <svg class="icon__search">
-                                <use xlink:href="./images/sprite.svg#icon-search"></use>
+                                <use xlink:href="./img/sprite.svg#icon-search"></use>
                             </svg>
                         </a>
 
                         <a href="#" class="icon__item">
                             <svg class="icon__cart">
-                                <use xlink:href="./images/sprite.svg#icon-shopping-basket"></use>
+                                <use xlink:href="./img/sprite.svg#icon-shopping-basket"></use>
                             </svg>
                             <span id="cart__total">0</span>
                         </a>
@@ -70,7 +70,7 @@
                         <li>
                             <a href="/">
                                 <svg>
-                                    <use xlink:href="./images/sprite.svg#icon-home"></use>
+                                    <use xlink:href="./img/sprite.svg#icon-home"></use>
                                 </svg>
                             </a>
                         </li>

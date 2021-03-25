@@ -18,7 +18,7 @@
 
 
     <!-- Custom StyleSheet -->
-    <link rel="stylesheet" href="styles.css" />
+    <link rel="stylesheet" href="style.css" />
 
     <title>Cart</title>
 </head>
@@ -28,14 +28,14 @@
 
     <?php 
         include "./component/Header.php";
-        include "./component/Cart-main.php";
+        include "./component/Cart_main.php";
 
         // <!-- Footer -->
 
         include "./component/Footer.php";
 
         //<!-- Go To -->
-        include "./component/Button-scroll-top.php";
+        include "./component/Button_scroll_top.php";
 
     ?>
 

@@ -35,7 +35,7 @@
         include "./component/Footer.php";
 
         //<!-- Go To -->
-        include "./component/Button_scroll_top.php";
+        include "./component/Button_Scroll_top.php";
 
     ?>
 

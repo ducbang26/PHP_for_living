@@ -14,7 +14,7 @@
 <body>
 
     <?php 
-
+    
         include "./component/Admin_Sidebar.php";
         include "./component/Admin_main.php";
 

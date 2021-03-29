@@ -100,7 +100,7 @@
                                             </td>
                                         </tr>
                                         <tr>
-                                            <td>Ushop App</td>
+                                            <td>Shop App</td>
                                             <td>Mobile team</td>
                                             <td><span class="status orange"></span>
                                                 pending
@@ -121,7 +121,7 @@
                                             </td>
                                         </tr>
                                         <tr>
-                                            <td>Ushop App</td>
+                                            <td>Shop App</td>
                                             <td>Mobile team</td>
                                             <td><span class="status orange"></span>
                                                 pending
@@ -142,7 +142,7 @@
                                             </td>
                                         </tr>
                                         <tr>
-                                            <td>Ushop App</td>
+                                            <td>Shop App</td>
                                             <td>Mobile team</td>
                                             <td><span class="status orange"></span>
                                                 pending
@@ -163,7 +163,7 @@
                                             </td>
                                         </tr>
                                         <tr>
-                                            <td>Ushop App</td>
+                                            <td>Shop App</td>
                                             <td>Mobile team</td>
                                             <td><span class="status orange"></span>
                                                 pending
@@ -176,7 +176,7 @@
                     </div>
                 </div>
                  
-                <div class="custommers">
+                <div class="customers">
                     <div class="card">
                         <div class="card-header">
                             <h3>New Customer</h3>

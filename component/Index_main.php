@@ -90,7 +90,7 @@
                                         </div>
                                         <a href="#"><button type="submit" class="product__btn">Add To Cart</button></a>
                                     </div>
-                                   <ul>
+                                    <ul>
                                         <li>
                                             <a data-tip="Quick View" data-place="left" href="#">
                                                 <svg aria-hidden="true" focusable="false" data-prefix="far"
@@ -176,7 +176,7 @@
                                         </div>
                                         <a href="#"><button type="submit" class="product__btn">Add To Cart</button></a>
                                     </div>
-                                   <ul>
+                                    <ul>
                                         <li>
                                             <a data-tip="Quick View" data-place="left" href="#">
                                                 <svg aria-hidden="true" focusable="false" data-prefix="far"
@@ -262,7 +262,7 @@
                                         </div>
                                         <a href="#"><button type="submit" class="product__btn">Add To Cart</button></a>
                                     </div>
-                                   <ul>
+                                    <ul>
                                         <li>
                                             <a data-tip="Quick View" data-place="left" href="#">
                                                 <svg aria-hidden="true" focusable="false" data-prefix="far"
@@ -348,7 +348,7 @@
                                         </div>
                                         <a href="#"><button type="submit" class="product__btn">Add To Cart</button></a>
                                     </div>
-                                   <ul>
+                                    <ul>
                                         <li>
                                             <a data-tip="Quick View" data-place="left" href="#">
                                                 <svg aria-hidden="true" focusable="false" data-prefix="far"
@@ -434,7 +434,7 @@
                                         </div>
                                         <a href="#"><button type="submit" class="product__btn">Add To Cart</button></a>
                                     </div>
-                                   <ul>
+                                    <ul>
                                         <li>
                                             <a data-tip="Quick View" data-place="left" href="#">
                                                 <svg aria-hidden="true" focusable="false" data-prefix="far"
@@ -520,7 +520,7 @@
                                         </div>
                                         <a href="#"><button type="submit" class="product__btn">Add To Cart</button></a>
                                     </div>
-                                   <ul>
+                                    <ul>
                                         <li>
                                             <a data-tip="Quick View" data-place="left" href="#">
                                                 <svg aria-hidden="true" focusable="false" data-prefix="far"
@@ -606,7 +606,7 @@
                                         </div>
                                         <a href="#"><button type="submit" class="product__btn">Add To Cart</button></a>
                                     </div>
-                                   <ul>
+                                    <ul>
                                         <li>
                                             <a data-tip="Quick View" data-place="left" href="#">
                                                 <svg aria-hidden="true" focusable="false" data-prefix="far"
@@ -692,7 +692,7 @@
                                         </div>
                                         <a href="#"><button type="submit" class="product__btn">Add To Cart</button></a>
                                     </div>
-                                   <ul>
+                                    <ul>
                                         <li>
                                             <a data-tip="Quick View" data-place="left" href="#">
                                                 <svg aria-hidden="true" focusable="false" data-prefix="far"
@@ -778,7 +778,7 @@
                                         </div>
                                         <a href="#"><button type="submit" class="product__btn">Add To Cart</button></a>
                                     </div>
-                                   <ul>
+                                    <ul>
                                         <li>
                                             <a data-tip="Quick View" data-place="left" href="#">
                                                 <svg aria-hidden="true" focusable="false" data-prefix="far"
@@ -819,14 +819,21 @@
 
                     <div class="glide__arrows" data-glide-el="controls">
                         <button class="glide__arrow glide__arrow--left" data-glide-dir="<">
-                            <svg>
-                                <use xlink:href="./img/sprite.svg#icon-arrow-left2"></use>
+                            <svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="caret-left"
+                                class="svg-inline--fa fa-caret-left fa-w-6" role="img"
+                                xmlns="http://www.w3.org/2000/svg" viewBox="0 0 192 512">
+                                <path fill="#001a00"
+                                    d="M192 127.338v257.324c0 17.818-21.543 26.741-34.142 14.142L29.196 270.142c-7.81-7.81-7.81-20.474 0-28.284l128.662-128.662c12.599-12.6 34.142-3.676 34.142 14.142z">
+                                </path>
                             </svg>
                         </button>
                         <button class="glide__arrow glide__arrow--right" data-glide-dir=">">
-                            <svg>
-                                <use xlink:href="./img/sprite.svg#icon-arrow-right2"></use>
-
+                            <svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="caret-right"
+                                class="svg-inline--fa fa-caret-right fa-w-6" role="img"
+                                xmlns="http://www.w3.org/2000/svg" viewBox="0 0 192 512">
+                                <path fill="#001a00"
+                                    d="M0 384.662V127.338c0-17.818 21.543-26.741 34.142-14.142l128.662 128.662c7.81 7.81 7.81 20.474 0 28.284L34.142 398.804C21.543 411.404 0 402.48 0 384.662z">
+                                </path>
                             </svg>
 
                         </button>

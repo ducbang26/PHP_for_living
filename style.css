@@ -180,7 +180,8 @@ Reset
   }
   
   .nav__icons .icon__item:hover {
-    background-color: var(--orange);
+    background-color: var(--blue);
+    color: var(--white);
     border: 1px solid var(--black);
   }
   
@@ -2527,7 +2528,7 @@ Reset
     margin-left: 345px;
   }
 
-  header{
+  .admin__header{
     background: #fff;
     display: flex;
     justify-content: space-between;
@@ -2670,7 +2671,7 @@ Reset
     border: 1px solid var(--blue);
   }
 
-  table{
+  .admin__table{
     border-collapse: collapse;
   }
 
@@ -2698,8 +2699,8 @@ Reset
   }
 
   tr td:last-child{
-    display: flex;
-    align-items: center;
+    /* display: flex;
+    align-items: center; */
   }
 
   .status.purple {

@@ -17,6 +17,9 @@
 
   <!-- Custom StyleSheet -->
   <link rel="stylesheet" href="style.css" />
+  <?php
+  include "config.php";
+  ?>
 
   <title>Index</title>
 </head>
@@ -25,11 +28,11 @@
 
   <?php 
 
-    include "./component/Header.php";
-    include "./component/Index_main.php";
-    include "./component/Footer.php";
-    include "./component/Index_Popup.php";
-    include "./component/Button_Scroll_top.php";
+    include comp_path."Header.php";
+    include comp_path."Index_main.php";
+    include comp_path."Footer.php";
+    include comp_path."Index_Popup.php";
+    include comp_path."Button_Scroll_top.php";
 
   ?>
 

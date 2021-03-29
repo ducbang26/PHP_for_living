@@ -1,6 +1,6 @@
 <div class="main-content">
                 <!-- Header -->
-        <header>
+        <header class="admin-header">
             <h1>
                 <label for="nav-toggle">
                     <span class="las la-bars"></span>

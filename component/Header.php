@@ -28,7 +28,7 @@
                             <a href="/" class="nav__link">Home</a>
                         </li>
                         <li class="nav__item">
-                            <a href="#" class="nav__link">Products</a>
+                            <a href="product.php" class="nav__link">Products</a>
                         </li>
                         <li class="nav__item">
                             <a href="#" class="nav__link">Blog</a>

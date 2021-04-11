@@ -894,7 +894,7 @@ Reset
   
   .latest__products .glide__arrow:hover,
   .related__products .glide__arrow:hover {
-    background-color: var(--orange);
+    background-color: var(--blue);
     border: 1px solid var(--primaryColor);
   }
   

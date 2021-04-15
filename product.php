@@ -2,12 +2,9 @@
 <html lang="en">
 
 <head>
-  <?php
-  include "./config.php";
-  ?>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
- 
+
   <!-- Favicon -->
 
   <!-- Google Fonts -->
@@ -29,16 +26,16 @@
 <body>
 
   <?php 
-        include comp_path."Header.php";
+        include "./component/Header.php";
 
-        include comp_path."Product_main.php";
+        include "./component/Product_main.php";
 
         // <!-- Footer -->
 
-        include comp_path."Footer.php";
+        include "./component/Footer.php";
 
         //<!-- Go To -->
-        include comp_path."Button_Scroll_top.php";
+        include "./component/Button_Scroll_top.php";
 
   ?>
 

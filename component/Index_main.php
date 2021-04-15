@@ -1050,7 +1050,7 @@
                     </div>
                 </div>
             </div>
-            <div style="border-bottom:1px solid black" class="news__container">
+            <div class="news__container">
                 <div class="glide" id="glide_5">
                     <div class="glide__track" data-glide-el="track">
                         <ul class="glide__slides">

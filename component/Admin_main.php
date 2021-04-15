@@ -1,6 +1,6 @@
 <div class="main-content">
                 <!-- Header -->
-        <header class="admin__header">
+        <header class="admin_header">
             <h1>
                 <label for="nav-toggle">
                     <span class="las la-bars"></span>
@@ -76,7 +76,7 @@
 
                         <div class="card-body">
                             <div class="table-responsive">
-                                <table class="admin__table" width="100%">
+                                <table width="100%">
                                     <thead>
                                         <tr>
                                             <td>Project Title</td>

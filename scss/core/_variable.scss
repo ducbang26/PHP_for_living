@@ -1,0 +1,32 @@
+$primary-color: #28ce98;
+$dark-bg-color: #222029;
+$meeting-bg-color: #302d3a;
+$shadow_1: 0 4px 17px rgba(0, 0, 0, 0.1);
+
+%small_btn {
+  padding: 8px 10px;
+  border-radius: 3px;
+  font-size: 12px;
+  line-height: 14px;
+}
+%medium_btn {
+  outline: none;
+  padding: 16px 20px;
+  border-radius: 6px;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 16px;
+}
+%perfect_center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+%bar {
+  box-sizing: border-box;
+  transition: all 0.3s ease-in-out;
+  transform-origin: center;
+  width: 24px;
+  height: 2px;
+  border-top: 2px solid var(--color-text);
+}

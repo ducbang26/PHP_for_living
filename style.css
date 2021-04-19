@@ -1991,17 +1991,20 @@ Reset
   .plus-btn {
     display: inline-block;
     border: 1px solid var(--primaryColor);
-    padding: 0.8rem 1rem;
+    padding: 15px;
     margin-right: 0;
     cursor: pointer;
   }
   
   .plus-btn {
     border-left-color: transparent;
+    
   }
   
   .minus-btn {
+    
     border-right-color: transparent;
+    
   }
   
   .counter-btn {

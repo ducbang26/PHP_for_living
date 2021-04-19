@@ -7,25 +7,30 @@
                     <div class="details__container--left">
                         <div class="product__pictures">
                             <div class="pictures__container">
-                                <img class="picture" src="./img/products/iPhone/iphone1.jpeg" id="pic1" />
+                                <img class="picture" src="<?php echo $level.imgIPhone_path."iphone1.jpeg"?>"
+                                    id="pic1" />
                             </div>
                             <div class="pictures__container">
-                                <img class="picture" src="./img/products/iPhone/iphone2.jpeg" id="pic2" />
+                                <img class="picture" src="<?php echo $level.imgIPhone_path."iphone2.jpeg"?>"
+                                    id="pic2" />
                             </div>
                             <div class="pictures__container">
-                                <img class="picture" src="./img/products/iPhone/iphone3.jpeg" id="pic3" />
+                                <img class="picture" src="<?php echo $level.imgIPhone_path."iphone3.jpeg"?>"
+                                    id="pic3" />
                             </div>
                             <div class="pictures__container">
-                                <img class="picture" src="./img/products/iPhone/iphone4.jpeg" id="pic4" />
+                                <img class="picture" src="<?php echo $level.imgIPhone_path."iphone4.jpeg"?>"
+                                    id="pic4" />
                             </div>
                             <div class="pictures__container">
-                                <img class="picture" src="./img/products/iPhone/iphone5.jpeg" id="pic5" />
+                                <img class="picture" src="<?php echo $level.imgIPhone_path."iphone5.jpeg"?>"
+                                    id="pic5" />
                             </div>
                         </div>
                         <div class="product__picture" id="product__picture">
                             <!-- <div class="rect" id="rect"></div> -->
                             <div class="picture__container">
-                                <img src="./img/products/iPhone/iphone1.jpeg" id="pic" />
+                                <img src="<?php echo $level.imgIPhone_path."iphone1.jpeg"?>" id="pic" />
                             </div>
                         </div>
                         <div class="zoom" id="zoom"></div>
@@ -134,14 +139,22 @@
                                         <span>Quantity:</span>
                                         <div>
                                             <span class="minus-btn">
-                                                <svg>
-                                                    <use xlink:href="./img/sprite.svg#icon-minus"></use>
+                                                <svg aria-hidden="true" focusable="false" data-prefix="fas"
+                                                    data-icon="minus" class="svg-inline--fa fa-minus fa-w-14" role="img"
+                                                    xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512">
+                                                    <path fill="currentColor"
+                                                        d="M416 208H32c-17.67 0-32 14.33-32 32v32c0 17.67 14.33 32 32 32h384c17.67 0 32-14.33 32-32v-32c0-17.67-14.33-32-32-32z">
+                                                    </path>
                                                 </svg>
                                             </span>
                                             <input type="text" min="1" value="1" max="10" class="counter-btn">
                                             <span class="plus-btn">
-                                                <svg>
-                                                    <use xlink:href="./img/sprite.svg#icon-plus"></use>
+                                                <svg aria-hidden="true" focusable="false" data-prefix="fas"
+                                                    data-icon="plus" class="svg-inline--fa fa-plus fa-w-14" role="img"
+                                                    xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512">
+                                                    <path fill="currentColor"
+                                                        d="M416 208H272V64c0-17.67-14.33-32-32-32h-32c-17.67 0-32 14.33-32 32v144H32c-17.67 0-32 14.33-32 32v32c0 17.67 14.33 32 32 32h144v144c0 17.67 14.33 32 32 32h32c17.67 0 32-14.33 32-32V304h144c17.67 0 32-14.33 32-32v-32c0-17.67-14.33-32-32-32z">
+                                                    </path>
                                                 </svg>
                                             </span>
                                         </div>
@@ -355,7 +368,7 @@
                             <li class="glide__slide">
                                 <div class="product">
                                     <div class="product__header">
-                                        <a href="#"><img src="./img/products/sumsung/samsung5.jpeg" alt="product"></a>
+                                        <a href="#"><img src="<?php echo $level.imgSS_path."samsung5.jpeg"?>" alt="product"></a>
                                     </div>
                                     <div class="product__footer">
                                         <h3>Samsung Galaxy</h3>
@@ -444,7 +457,7 @@
                             <li class="glide__slide">
                                 <div class="product">
                                     <div class="product__header">
-                                        <a href="#"><img src="./img/products/iPhone/iphone6.jpeg" alt="product"></a>
+                                        <a href="#"><img src="<?php echo $level.imgIPhone_path."iphone6.jpeg"?>" alt="product"></a>
                                     </div>
                                     <div class="product__footer">
                                         <h3>Apple iPhone 11</h3>

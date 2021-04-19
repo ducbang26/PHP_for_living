@@ -755,7 +755,7 @@ Reset
     display: flex;
     align-items: center;
     justify-content: center;
-    background-color: var(--orange);
+    background-color: rgba(255, 255, 255, 0.75);
     width: 3.5rem;
     height: 3.5rem;
     cursor: pointer;
@@ -1197,7 +1197,7 @@ Reset
     bottom: 10%;
     padding: 0.8rem 1.4rem;
     border-radius: 1rem;
-    background-color: var(--orange);
+    background-color: #424141;
     visibility: hidden;
     cursor: pointer;
     transition: 0.3s;

@@ -1,6 +1,6 @@
 <div class="main-content">
-                <!-- Header -->
-        <header class="admin-header">
+                <!-- Header -->    
+        <header class="admin_header">
             <h1>
                 <label for="nav-toggle">
                     <span class="las la-bars"></span>
@@ -20,7 +20,7 @@
                     <small>Super admin</small>
                 </div>
             </div>
-        </header>
+        </>
 
         <main>
 

@@ -1,6 +1,9 @@
 <!DOCTYPE html>
 <html lang="en">
+<?php
+include "config.php";
 
+?>
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -18,18 +21,18 @@
   <!-- Custom StyleSheet -->
   <link rel="stylesheet" href="style.css" />
 
-  <title>Index</title>
+  <title>Index</title> 
 </head>
 
 <body>
 
   <?php 
 
-    include "./com_path.'Header.php'";
-    include "./component/Index_main.php";
-    include "./component/Footer.php";
-    include "./component/Index_Popup.php";
-    include "./component/Button_Scroll_top.php";
+    include comp_path."Header.php";
+    include comp_path."Index_main.php";
+    include comp_path."Footer.php";
+    include comp_path."Index_Popup.php";
+    include comp_path."Button_Scroll_top.php";
 
   ?>
 

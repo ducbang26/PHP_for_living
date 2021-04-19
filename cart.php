@@ -10,8 +10,8 @@
 
 
     <!-- Carousel -->
-    <link rel="stylesheet" href="node_modules/@glidejs/glide/dist/css/glide.core.min.css" />
-    <link rel="stylesheet" href="node_modules/@glidejs/glide/dist/css/glide.theme.min.css" />
+    <!-- <link rel="stylesheet" href="node_modules/@glidejs/glide/dist/css/glide.core.min.css" />
+    <link rel="stylesheet" href="node_modules/@glidejs/glide/dist/css/glide.theme.min.css" /> -->
 
     <!-- Animate On Scroll -->
     <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
@@ -41,7 +41,7 @@
 
 
     <!-- Glide Carousel Script -->
-    <script src="node_modules/@glidejs/glide/dist/glide.min.js"></script>
+    <!-- <script src="node_modules/@glidejs/glide/dist/glide.min.js"></script> -->
 
     <!-- Animate On Scroll -->
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>

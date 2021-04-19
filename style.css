@@ -2517,7 +2517,7 @@ Reset
     margin-left: 70px;
   }
 
-  #nav-toggle:checked ~ .main-content header{
+  #nav-toggle:checked ~ .main-content .admin-header{
     width: calc(100% - 70px);
     left: 70px;
   }
@@ -2780,7 +2780,7 @@ Reset
       margin-left: 70px;
     }
 
-    .main-content header{
+    .main-content .admin-header{
       width: calc(100%+70px);
       left: 70px;
     }

@@ -1,5 +1,5 @@
 <div class="main-content">
-                <!-- Header -->
+                <!-- Header -->    
         <header class="admin_header">
             <h1>
                 <label for="nav-toggle">
@@ -20,7 +20,7 @@
                     <small>Super admin</small>
                 </div>
             </div>
-        </header>
+        </>
 
         <main>
 

@@ -25,7 +25,7 @@
 
   <?php 
 
-    include "./component/Header.php";
+    include "./com_path.'Header.php'";
     include "./component/Index_main.php";
     include "./component/Footer.php";
     include "./component/Index_Popup.php";

@@ -12,7 +12,7 @@ function prx($arr){
 
 function get_safe_value($con, $str){
     if ($str != '') {
-        return mysql_real_escape_string($con, $str);
+        return mysqli_real_escape_string($con, $str);
     }
 }
 ?>

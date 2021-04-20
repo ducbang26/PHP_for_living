@@ -14,7 +14,7 @@
             </div>
 
             <div class="user-wrapper">
-                <img src="./img/profile1.jpg" width="30px" height="30px" alt="">
+                <img src="<?php echo $level.img_path."profile1.jpg"?>" width="30px" height="30px" alt="">
                 <div>
                     <h4>Duc Bang</h4>
                     <small>Super admin</small>
@@ -185,7 +185,7 @@
                         <div class="card-body">
                             <div class="customer">
                                 <div class="info">
-                                    <img src="./img/profile2.jpg" width="40px" height="40px" alt="">
+                                    <img src="<?php echo $level.img_path."profile2.jpg"?>" width="40px" height="40px" alt="">
                                     <div>
                                         <h4>Thanh Man</h4>
                                         <small>CEO VinGroup</small>
@@ -199,7 +199,7 @@
                             </div>
                             <div class="customer">
                                 <div class="info">
-                                    <img src="./img/profile2.jpg" width="40px" height="40px" alt="">
+                                    <img src="<?php echo $level.img_path."profile1.jpg"?>" width="40px" height="40px" alt="">
                                     <div>
                                         <h4>Thanh Man</h4>
                                         <small>CEO VinGroup</small>
@@ -213,7 +213,7 @@
                             </div>
                             <div class="customer">
                                 <div class="info">
-                                    <img src="./img/profile2.jpg" width="40px" height="40px" alt="">
+                                    <img src="<?php echo $level.img_path."profile1.jpg"?>" width="40px" height="40px" alt="">
                                     <div>
                                         <h4>Thanh Man</h4>
                                         <small>CEO VinGroup</small>
@@ -227,7 +227,7 @@
                             </div>
                             <div class="customer">
                                 <div class="info">
-                                    <img src="./img/profile2.jpg" width="40px" height="40px" alt="">
+                                    <img src="<?php echo $level.img_path."profile1.jpg"?>" width="40px" height="40px" alt="">
                                     <div>
                                         <h4>Thanh Man</h4>
                                         <small>CEO VinGroup</small>
@@ -241,7 +241,7 @@
                             </div>
                             <div class="customer">
                                 <div class="info">
-                                    <img src="./img/profile2.jpg" width="40px" height="40px" alt="">
+                                    <img src="<?php echo $level.img_path."profile1.jpg"?>" width="40px" height="40px" alt="">
                                     <div>
                                         <h4>Thanh Man</h4>
                                         <small>CEO VinGroup</small>
@@ -255,7 +255,7 @@
                             </div>
                             <div class="customer">
                                 <div class="info">
-                                    <img src="./img/profile2.jpg" width="40px" height="40px" alt="">
+                                    <img src="<?php echo $level.img_path."profile1.jpg"?>" width="40px" height="40px" alt="">
                                     <div>
                                         <h4>Thanh Man</h4>
                                         <small>CEO VinGroup</small>
@@ -269,7 +269,7 @@
                             </div>
                             <div class="customer">
                                 <div class="info">
-                                    <img src="./img/profile2.jpg" width="40px" height="40px" alt="">
+                                    <img src="<?php echo $level.img_path."profile1.jpg"?>" width="40px" height="40px" alt="">
                                     <div>
                                         <h4>Thanh Man</h4>
                                         <small>CEO VinGroup</small>

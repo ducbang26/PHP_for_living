@@ -180,7 +180,7 @@ Reset
   }
   
   .nav__icons .icon__item:hover {
-    background-color: var(--orange);
+    background-color: var(--blue);
     border: 1px solid var(--black);
   }
   
@@ -883,7 +883,7 @@ Reset
   .latest__products .glide__arrow,
   .related__products .glide__arrow {
     background-color: transparent;
-    border: 1px solid var(--primaryColor);
+    border: 1px solid black;
     outline: none;
     border-radius: 0;
     box-shadow: 0 0.25em 0.5em 0 rgba(0, 0, 0, 0);
@@ -893,8 +893,9 @@ Reset
   
   .latest__products .glide__arrow:hover,
   .related__products .glide__arrow:hover {
-    background-color: var(--orange);
-    border: 1px solid var(--primaryColor);
+    background-color:whitesmoke;
+    border: 3px solid black;
+    
   }
   
   .latest__products .glide__arrow--left,
@@ -1990,17 +1991,20 @@ Reset
   .plus-btn {
     display: inline-block;
     border: 1px solid var(--primaryColor);
-    padding: 0.8rem 1rem;
+    padding: 15px;
     margin-right: 0;
     cursor: pointer;
   }
   
   .plus-btn {
     border-left-color: transparent;
+    
   }
   
   .minus-btn {
+    
     border-right-color: transparent;
+    
   }
   
   .counter-btn {
@@ -2527,7 +2531,7 @@ Reset
     margin-left: 345px;
   }
 
-  header{
+  .admin_header{
     background: #fff;
     display: flex;
     justify-content: space-between;
@@ -2545,11 +2549,11 @@ Reset
     display: none;
   }
 
-  header h2{
+  .admin_header h2{
     color:#222;
   }
 
-  header label span{
+  .admin_header label span{
     font-style: 1.7rem;
     padding-right: 1rem;
   }
@@ -2698,7 +2702,7 @@ Reset
   }
 
   tr td:last-child{
-    display: flex;
+   
     align-items: center;
   }
 
@@ -2830,12 +2834,12 @@ Reset
       left:-100% !important;
     }
 
-    header h2 {
+    .admin_header h2 {
       display: flex;
       align-items: center;
     }
 
-    header h2 label{
+    .admin_header h2 label{
       display: inline-block;
       background: var(--blue);
       text-align: center;
@@ -2849,12 +2853,12 @@ Reset
       align-items: center;
     }
 
-    header h2 span{
+    .admin_header h2 span{
       text-align: center;
       padding-right: 0rem;
     }
 
-    header h2 {
+    .admin_header h2 {
       font-size: 1.1rem;
     }
 
@@ -2863,7 +2867,7 @@ Reset
       margin-left: 0rem;
     }
 
-    header {
+    .admin_header {
       width: 100% !important;
       left: 0 !important;
     }

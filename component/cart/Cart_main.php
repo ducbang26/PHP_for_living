@@ -18,7 +18,7 @@
                                     <tr>
                                         <td class="product__thumbnail">
                                             <a href="#">
-                                                <img src="./img/products/iPhone/iphone6.jpeg" alt="">
+                                                <img src="<?php echo $level.imgIPhone_path."iphone6.jpeg"?>" alt="">
                                             </a>
                                         </td>
                                         <td class="product__name">
@@ -60,7 +60,11 @@
                                     <tr>
                                         <td class="product__thumbnail">
                                             <a href="#">
+<<<<<<< HEAD:component/Cart_main.php
                                                 <img src="./img/products/samsung/samsung5.jpeg" alt="">
+=======
+                                                <img src="<?php echo $level.imgSS_path."samsung5.jpeg"?>" alt="">
+>>>>>>> vinh_lam_ne:component/cart/Cart_main.php
                                             </a>
                                         </td>
                                         <td class="product__name">
@@ -102,7 +106,11 @@
                                     <tr>
                                         <td class="product__thumbnail">
                                             <a href="#">
+<<<<<<< HEAD:component/Cart_main.php
                                                 <img src="./img/products/samsung/samsung2.jpeg" alt="">
+=======
+                                                <img src="<?php echo $level.imgSS_path."samsung2.jpeg"?>" alt="">
+>>>>>>> vinh_lam_ne:component/cart/Cart_main.php
                                             </a>
                                         </td>
                                         <td class="product__name">
@@ -146,7 +154,7 @@
                                     <tr>
                                         <td class="product__thumbnail">
                                             <a href="#">
-                                                <img src="./img/products/iPhone/iphone4.jpeg" alt="">
+                                                <img src="<?php echo $level.imgIPhone_path."iphone4.jpeg"?>" alt="">
                                             </a>
                                         </td>
                                         <td class="product__name">

@@ -1,3 +1,8 @@
+<?php 
+    require_once $level."config.php";
+    $sql = "SELECT * FROM PHONES ";
+    $query = mysqli_query($connect,$sql);
+?>
 <main id="main">
     <div class="container">
         <!-- Products Details -->
@@ -65,9 +70,13 @@
 
                 <div class="product-detail__right">
                     <div class="product-detail__content">
-                        <h3>Apple iPhone XR</h3>
+                        
+                        <h3><?php 
+                        $row = mysqli_fetch_assoc($query);
+                        echo $row['Title']; ?>
+                        </h3>
                         <div class="price">
-                            <span class="new__price">$250.99</span>
+                            <span class="new__price"> <?php echo $row['price']; ?></span>
                         </div>
                         <div class="product__review">
                             <div class="rating">
@@ -110,10 +119,7 @@
                             <a href="#" class="rating__quatity">3 reviews</a>
                         </div>
                         <p>
-                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt
-                            a doloribus iste natus et facere?
-                            dolor sit amet consectetur adipisicing elit. Sunt
-                            a doloribus iste natus et facere?
+                            <?php echo $row['description']; ?>
                         </p>
                         <div class="product__info-container">
                             <ul class="product__info">
@@ -1851,7 +1857,7 @@
                 <div class="facility__box">
                     <div class="facility-img__container">
                         <svg>
-                            <use xlink:href="./img/sprite.svg#icon-airplane"></use>
+                            <use xlink:href="./img/svg/airplane.svg"></use>
                         </svg>
                     </div>
                     <p>FREE SHIPPING WORLD WIDE</p>

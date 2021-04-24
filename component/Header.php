@@ -1,5 +1,5 @@
-<header id="header" class="header">
-    <div class="navigation">
+<header id="cli_header" class="cli_header">
+    <div class="navigation fix__nav">
         <div class="container">
             <nav class="nav">
                 <div class="nav__hamburger">

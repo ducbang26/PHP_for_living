@@ -1,3 +1,8 @@
+<?php 
+    require_once $level."config.php";
+    $sql = "SELECT * FROM PHONES ";
+    $query = mysqli_query($connect,$sql);
+?>
 <main id="main">
         <section class="section cart__area">
             <div class="container">

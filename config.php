@@ -8,8 +8,16 @@ define('compProduct_path','component/product/');
 define('ctn_path','container_pages/');
 define('imgHeadPhone_path','img/products/headphone/');
 define('imgIPhone_path','img/products/iPhone/');
-define('imgSS_path','img/products/sumsung/');
+define('imgSS_path','img/products/samsung/');
 
 
 
+$connect = mysqli_connect('localhost','root','','phoneshop');
+// if($connect){
+//     mysqli_query($connect,"SET NAMES 'UTF8'");
+//     echo "Ket noi thanh cong ";
+// }
+// else{
+//     echo "ket noi that bai ";
+// }
 ?>

@@ -8,7 +8,10 @@
 <div class="main-content">
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> 9ffbbf5e1e0ca0df309ca7944afe744367acef74
                 <!-- Header -->    
         <header class="admin_header">
             <h1>
@@ -17,6 +20,7 @@
                 </label>
                 Dashboard
             </h1>
+<<<<<<< HEAD
 =======
 >>>>>>> dbfd52ded4e76fba2804da4c92cb9e53b861cba5
     <!-- Header -->
@@ -41,6 +45,8 @@
 =======
 >>>>>>> 2d935701f91413a8259b9e35d3bf6fcec37f14a1
 >>>>>>> dbfd52ded4e76fba2804da4c92cb9e53b861cba5
+=======
+>>>>>>> 9ffbbf5e1e0ca0df309ca7944afe744367acef74
 
         <div class="search-wrapper">
             <span class="las la-search"></span>
@@ -70,6 +76,7 @@
             </div>
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
         </>
 >>>>>>> 2c62f027a2082eccf74329208c8edd3a49c7ca0f
@@ -78,6 +85,8 @@
 =======
 >>>>>>> 2d935701f91413a8259b9e35d3bf6fcec37f14a1
 >>>>>>> dbfd52ded4e76fba2804da4c92cb9e53b861cba5
+=======
+>>>>>>> 9ffbbf5e1e0ca0df309ca7944afe744367acef74
 
             <div class="card-single">
                 <div>

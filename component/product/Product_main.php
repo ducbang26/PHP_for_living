@@ -60,9 +60,9 @@ $query1 = mysqli_query($connect, $sql1);
                 <div class="product-detail__right">
                     <div class="product-detail__content">
 
-                        <h3><?php
-                            $row = mysqli_fetch_assoc($query1);
-                            echo $row['Title']; ?>
+                        <h3><?php 
+                        $row = mysqli_fetch_assoc($query1);
+                        echo $row['Title']; ?>
                         </h3>
                         <div class="price">
                             <span class="new__price"> <?php echo $row['price']; ?></span>

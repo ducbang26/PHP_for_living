@@ -70,7 +70,7 @@
 
                 <div class="product-detail__right">
                     <div class="product-detail__content">
-                        
+
                         <h3><?php 
                         $row = mysqli_fetch_assoc($query);
                         echo $row['Title']; ?>
@@ -187,25 +187,37 @@
                             <div class="product-info__btn">
                                 <a href="#">
                                     <span>
-                                        <svg>
-                                            <use xlink:href="./img/sprite.svg#icon-crop"></use>
+                                        <svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="crop-alt"
+                                            class="svg-inline--fa fa-crop-alt fa-w-16" role="img"
+                                            xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+                                            <path fill="currentColor"
+                                                d="M488 352h-40V96c0-17.67-14.33-32-32-32H192v96h160v328c0 13.25 10.75 24 24 24h48c13.25 0 24-10.75 24-24v-40h40c13.25 0 24-10.75 24-24v-48c0-13.26-10.75-24-24-24zM160 24c0-13.26-10.75-24-24-24H88C74.75 0 64 10.74 64 24v40H24C10.75 64 0 74.74 0 88v48c0 13.25 10.75 24 24 24h40v256c0 17.67 14.33 32 32 32h224v-96H160V24z">
+                                            </path>
                                         </svg>
                                     </span>&nbsp;
                                     SIZE GUIDE
                                 </a>
                                 <a href="#">
                                     <span>
-                                        <svg>
-                                            <use xlink:href="./img/sprite.svg#icon-truck"></use>
+                                        <svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="truck"
+                                            class="svg-inline--fa fa-truck fa-w-20" role="img"
+                                            xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 512">
+                                            <path fill="currentColor"
+                                                d="M624 352h-16V243.9c0-12.7-5.1-24.9-14.1-33.9L494 110.1c-9-9-21.2-14.1-33.9-14.1H416V48c0-26.5-21.5-48-48-48H48C21.5 0 0 21.5 0 48v320c0 26.5 21.5 48 48 48h16c0 53 43 96 96 96s96-43 96-96h128c0 53 43 96 96 96s96-43 96-96h48c8.8 0 16-7.2 16-16v-32c0-8.8-7.2-16-16-16zM160 464c-26.5 0-48-21.5-48-48s21.5-48 48-48 48 21.5 48 48-21.5 48-48 48zm320 0c-26.5 0-48-21.5-48-48s21.5-48 48-48 48 21.5 48 48-21.5 48-48 48zm80-208H416V144h44.1l99.9 99.9V256z">
+                                            </path>
                                         </svg>
                                     </span>&nbsp;
                                     SHIPPING
                                 </a>
                                 <a href="#">
                                     <span>
-                                        <svg>
-                                            <use xlink:href="./img/sprite.svg#icon-envelope-o"></use>
-                                        </svg>&nbsp;
+                                        <svg aria-hidden="true" focusable="false" data-prefix="far"
+                                            data-icon="envelope-open" class="svg-inline--fa fa-envelope-open fa-w-16"
+                                            role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+                                            <path fill="currentColor"
+                                                d="M494.586 164.516c-4.697-3.883-111.723-89.95-135.251-108.657C337.231 38.191 299.437 0 256 0c-43.205 0-80.636 37.717-103.335 55.859-24.463 19.45-131.07 105.195-135.15 108.549A48.004 48.004 0 0 0 0 201.485V464c0 26.51 21.49 48 48 48h416c26.51 0 48-21.49 48-48V201.509a48 48 0 0 0-17.414-36.993zM464 458a6 6 0 0 1-6 6H54a6 6 0 0 1-6-6V204.347c0-1.813.816-3.526 2.226-4.665 15.87-12.814 108.793-87.554 132.364-106.293C200.755 78.88 232.398 48 256 48c23.693 0 55.857 31.369 73.41 45.389 23.573 18.741 116.503 93.493 132.366 106.316a5.99 5.99 0 0 1 2.224 4.663V458zm-31.991-187.704c4.249 5.159 3.465 12.795-1.745 16.981-28.975 23.283-59.274 47.597-70.929 56.863C336.636 362.283 299.205 400 256 400c-43.452 0-81.287-38.237-103.335-55.86-11.279-8.967-41.744-33.413-70.927-56.865-5.21-4.187-5.993-11.822-1.745-16.981l15.258-18.528c4.178-5.073 11.657-5.843 16.779-1.726 28.618 23.001 58.566 47.035 70.56 56.571C200.143 320.631 232.307 352 256 352c23.602 0 55.246-30.88 73.41-45.389 11.994-9.535 41.944-33.57 70.563-56.568 5.122-4.116 12.601-3.346 16.778 1.727l15.258 18.526z">
+                                            </path>
+                                        </svg>
                                     </span>
                                     ASK ABOUT THIS PRODUCT
                                 </a>
@@ -374,7 +386,8 @@
                             <li class="glide__slide">
                                 <div class="product">
                                     <div class="product__header">
-                                        <a href="#"><img src="<?php echo $level.imgSS_path."samsung5.jpeg"?>" alt="product"></a>
+                                        <a href="#"><img src="<?php echo $level.imgSS_path."samsung5.jpeg"?>"
+                                                alt="product"></a>
                                     </div>
                                     <div class="product__footer">
                                         <h3>Samsung Galaxy</h3>
@@ -463,7 +476,8 @@
                             <li class="glide__slide">
                                 <div class="product">
                                     <div class="product__header">
-                                        <a href="#"><img src="<?php echo $level.imgIPhone_path."iphone6.jpeg"?>" alt="product"></a>
+                                        <a href="#"><img src="<?php echo $level.imgIPhone_path."iphone6.jpeg"?>"
+                                                alt="product"></a>
                                     </div>
                                     <div class="product__footer">
                                         <h3>Apple iPhone 11</h3>
@@ -1369,20 +1383,40 @@
                                     <div class="product__footer">
                                         <h3>Sony WH-CH510</h3>
                                         <div class="rating">
-                                            <svg>
-                                                <use xlink:href="./img/sprite.svg#icon-star-full"></use>
+                                            <svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="star"
+                                                class="svg-inline--fa fa-star fa-w-18" role="img"
+                                                xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512">
+                                                <path fill="currentColor"
+                                                    d="M259.3 17.8L194 150.2 47.9 171.5c-26.2 3.8-36.7 36.1-17.7 54.6l105.7 103-25 145.5c-4.5 26.3 23.2 46 46.4 33.7L288 439.6l130.7 68.7c23.2 12.2 50.9-7.4 46.4-33.7l-25-145.5 105.7-103c19-18.5 8.5-50.8-17.7-54.6L382 150.2 316.7 17.8c-11.7-23.6-45.6-23.9-57.4 0z">
+                                                </path>
                                             </svg>
-                                            <svg>
-                                                <use xlink:href="./img/sprite.svg#icon-star-full"></use>
+                                            <svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="star"
+                                                class="svg-inline--fa fa-star fa-w-18" role="img"
+                                                xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512">
+                                                <path fill="currentColor"
+                                                    d="M259.3 17.8L194 150.2 47.9 171.5c-26.2 3.8-36.7 36.1-17.7 54.6l105.7 103-25 145.5c-4.5 26.3 23.2 46 46.4 33.7L288 439.6l130.7 68.7c23.2 12.2 50.9-7.4 46.4-33.7l-25-145.5 105.7-103c19-18.5 8.5-50.8-17.7-54.6L382 150.2 316.7 17.8c-11.7-23.6-45.6-23.9-57.4 0z">
+                                                </path>
                                             </svg>
-                                            <svg>
-                                                <use xlink:href="./img/sprite.svg#icon-star-full"></use>
+                                            <svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="star"
+                                                class="svg-inline--fa fa-star fa-w-18" role="img"
+                                                xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512">
+                                                <path fill="currentColor"
+                                                    d="M259.3 17.8L194 150.2 47.9 171.5c-26.2 3.8-36.7 36.1-17.7 54.6l105.7 103-25 145.5c-4.5 26.3 23.2 46 46.4 33.7L288 439.6l130.7 68.7c23.2 12.2 50.9-7.4 46.4-33.7l-25-145.5 105.7-103c19-18.5 8.5-50.8-17.7-54.6L382 150.2 316.7 17.8c-11.7-23.6-45.6-23.9-57.4 0z">
+                                                </path>
                                             </svg>
-                                            <svg>
-                                                <use xlink:href="./img/sprite.svg#icon-star-full"></use>
+                                            <svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="star"
+                                                class="svg-inline--fa fa-star fa-w-18" role="img"
+                                                xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512">
+                                                <path fill="currentColor"
+                                                    d="M259.3 17.8L194 150.2 47.9 171.5c-26.2 3.8-36.7 36.1-17.7 54.6l105.7 103-25 145.5c-4.5 26.3 23.2 46 46.4 33.7L288 439.6l130.7 68.7c23.2 12.2 50.9-7.4 46.4-33.7l-25-145.5 105.7-103c19-18.5 8.5-50.8-17.7-54.6L382 150.2 316.7 17.8c-11.7-23.6-45.6-23.9-57.4 0z">
+                                                </path>
                                             </svg>
-                                            <svg>
-                                                <use xlink:href="./img/sprite.svg#icon-star-empty"></use>
+                                            <svg aria-hidden="true" focusable="false" data-prefix="far" data-icon="star"
+                                                class="svg-inline--fa fa-star fa-w-18" role="img"
+                                                xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512">
+                                                <path fill="currentColor"
+                                                    d="M528.1 171.5L382 150.2 316.7 17.8c-11.7-23.6-45.6-23.9-57.4 0L194 150.2 47.9 171.5c-26.2 3.8-36.7 36.1-17.7 54.6l105.7 103-25 145.5c-4.5 26.3 23.2 46 46.4 33.7L288 439.6l130.7 68.7c23.2 12.2 50.9-7.4 46.4-33.7l-25-145.5 105.7-103c19-18.5 8.5-50.8-17.7-54.6zM388.6 312.3l23.7 138.4L288 385.4l-124.3 65.3 23.7-138.4-100.6-98 139-20.2 62.2-126 62.2 126 139 20.2-100.6 98z">
+                                                </path>
                                             </svg>
                                         </div>
                                         <div class="product__price">
@@ -1435,20 +1469,40 @@
                                     <div class="product__footer">
                                         <h3>Samsung Galaxy</h3>
                                         <div class="rating">
-                                            <svg>
-                                                <use xlink:href="./img/sprite.svg#icon-star-full"></use>
+                                        <svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="star"
+                                                class="svg-inline--fa fa-star fa-w-18" role="img"
+                                                xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512">
+                                                <path fill="currentColor"
+                                                    d="M259.3 17.8L194 150.2 47.9 171.5c-26.2 3.8-36.7 36.1-17.7 54.6l105.7 103-25 145.5c-4.5 26.3 23.2 46 46.4 33.7L288 439.6l130.7 68.7c23.2 12.2 50.9-7.4 46.4-33.7l-25-145.5 105.7-103c19-18.5 8.5-50.8-17.7-54.6L382 150.2 316.7 17.8c-11.7-23.6-45.6-23.9-57.4 0z">
+                                                </path>
                                             </svg>
-                                            <svg>
-                                                <use xlink:href="./img/sprite.svg#icon-star-full"></use>
+                                            <svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="star"
+                                                class="svg-inline--fa fa-star fa-w-18" role="img"
+                                                xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512">
+                                                <path fill="currentColor"
+                                                    d="M259.3 17.8L194 150.2 47.9 171.5c-26.2 3.8-36.7 36.1-17.7 54.6l105.7 103-25 145.5c-4.5 26.3 23.2 46 46.4 33.7L288 439.6l130.7 68.7c23.2 12.2 50.9-7.4 46.4-33.7l-25-145.5 105.7-103c19-18.5 8.5-50.8-17.7-54.6L382 150.2 316.7 17.8c-11.7-23.6-45.6-23.9-57.4 0z">
+                                                </path>
                                             </svg>
-                                            <svg>
-                                                <use xlink:href="./img/sprite.svg#icon-star-full"></use>
+                                            <svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="star"
+                                                class="svg-inline--fa fa-star fa-w-18" role="img"
+                                                xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512">
+                                                <path fill="currentColor"
+                                                    d="M259.3 17.8L194 150.2 47.9 171.5c-26.2 3.8-36.7 36.1-17.7 54.6l105.7 103-25 145.5c-4.5 26.3 23.2 46 46.4 33.7L288 439.6l130.7 68.7c23.2 12.2 50.9-7.4 46.4-33.7l-25-145.5 105.7-103c19-18.5 8.5-50.8-17.7-54.6L382 150.2 316.7 17.8c-11.7-23.6-45.6-23.9-57.4 0z">
+                                                </path>
                                             </svg>
-                                            <svg>
-                                                <use xlink:href="./img/sprite.svg#icon-star-full"></use>
+                                            <svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="star"
+                                                class="svg-inline--fa fa-star fa-w-18" role="img"
+                                                xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512">
+                                                <path fill="currentColor"
+                                                    d="M259.3 17.8L194 150.2 47.9 171.5c-26.2 3.8-36.7 36.1-17.7 54.6l105.7 103-25 145.5c-4.5 26.3 23.2 46 46.4 33.7L288 439.6l130.7 68.7c23.2 12.2 50.9-7.4 46.4-33.7l-25-145.5 105.7-103c19-18.5 8.5-50.8-17.7-54.6L382 150.2 316.7 17.8c-11.7-23.6-45.6-23.9-57.4 0z">
+                                                </path>
                                             </svg>
-                                            <svg>
-                                                <use xlink:href="./img/sprite.svg#icon-star-empty"></use>
+                                            <svg aria-hidden="true" focusable="false" data-prefix="far" data-icon="star"
+                                                class="svg-inline--fa fa-star fa-w-18" role="img"
+                                                xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512">
+                                                <path fill="currentColor"
+                                                    d="M528.1 171.5L382 150.2 316.7 17.8c-11.7-23.6-45.6-23.9-57.4 0L194 150.2 47.9 171.5c-26.2 3.8-36.7 36.1-17.7 54.6l105.7 103-25 145.5c-4.5 26.3 23.2 46 46.4 33.7L288 439.6l130.7 68.7c23.2 12.2 50.9-7.4 46.4-33.7l-25-145.5 105.7-103c19-18.5 8.5-50.8-17.7-54.6zM388.6 312.3l23.7 138.4L288 385.4l-124.3 65.3 23.7-138.4-100.6-98 139-20.2 62.2-126 62.2 126 139 20.2-100.6 98z">
+                                                </path>
                                             </svg>
                                         </div>
                                         <div class="product__price">
@@ -1501,20 +1555,40 @@
                                     <div class="product__footer">
                                         <h3>Apple iPhone 11</h3>
                                         <div class="rating">
-                                            <svg>
-                                                <use xlink:href="./img/sprite.svg#icon-star-full"></use>
+                                        <svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="star"
+                                                class="svg-inline--fa fa-star fa-w-18" role="img"
+                                                xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512">
+                                                <path fill="currentColor"
+                                                    d="M259.3 17.8L194 150.2 47.9 171.5c-26.2 3.8-36.7 36.1-17.7 54.6l105.7 103-25 145.5c-4.5 26.3 23.2 46 46.4 33.7L288 439.6l130.7 68.7c23.2 12.2 50.9-7.4 46.4-33.7l-25-145.5 105.7-103c19-18.5 8.5-50.8-17.7-54.6L382 150.2 316.7 17.8c-11.7-23.6-45.6-23.9-57.4 0z">
+                                                </path>
                                             </svg>
-                                            <svg>
-                                                <use xlink:href="./img/sprite.svg#icon-star-full"></use>
+                                            <svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="star"
+                                                class="svg-inline--fa fa-star fa-w-18" role="img"
+                                                xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512">
+                                                <path fill="currentColor"
+                                                    d="M259.3 17.8L194 150.2 47.9 171.5c-26.2 3.8-36.7 36.1-17.7 54.6l105.7 103-25 145.5c-4.5 26.3 23.2 46 46.4 33.7L288 439.6l130.7 68.7c23.2 12.2 50.9-7.4 46.4-33.7l-25-145.5 105.7-103c19-18.5 8.5-50.8-17.7-54.6L382 150.2 316.7 17.8c-11.7-23.6-45.6-23.9-57.4 0z">
+                                                </path>
                                             </svg>
-                                            <svg>
-                                                <use xlink:href="./img/sprite.svg#icon-star-full"></use>
+                                            <svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="star"
+                                                class="svg-inline--fa fa-star fa-w-18" role="img"
+                                                xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512">
+                                                <path fill="currentColor"
+                                                    d="M259.3 17.8L194 150.2 47.9 171.5c-26.2 3.8-36.7 36.1-17.7 54.6l105.7 103-25 145.5c-4.5 26.3 23.2 46 46.4 33.7L288 439.6l130.7 68.7c23.2 12.2 50.9-7.4 46.4-33.7l-25-145.5 105.7-103c19-18.5 8.5-50.8-17.7-54.6L382 150.2 316.7 17.8c-11.7-23.6-45.6-23.9-57.4 0z">
+                                                </path>
                                             </svg>
-                                            <svg>
-                                                <use xlink:href="./img/sprite.svg#icon-star-full"></use>
+                                            <svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="star"
+                                                class="svg-inline--fa fa-star fa-w-18" role="img"
+                                                xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512">
+                                                <path fill="currentColor"
+                                                    d="M259.3 17.8L194 150.2 47.9 171.5c-26.2 3.8-36.7 36.1-17.7 54.6l105.7 103-25 145.5c-4.5 26.3 23.2 46 46.4 33.7L288 439.6l130.7 68.7c23.2 12.2 50.9-7.4 46.4-33.7l-25-145.5 105.7-103c19-18.5 8.5-50.8-17.7-54.6L382 150.2 316.7 17.8c-11.7-23.6-45.6-23.9-57.4 0z">
+                                                </path>
                                             </svg>
-                                            <svg>
-                                                <use xlink:href="./img/sprite.svg#icon-star-empty"></use>
+                                            <svg aria-hidden="true" focusable="false" data-prefix="far" data-icon="star"
+                                                class="svg-inline--fa fa-star fa-w-18" role="img"
+                                                xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512">
+                                                <path fill="currentColor"
+                                                    d="M528.1 171.5L382 150.2 316.7 17.8c-11.7-23.6-45.6-23.9-57.4 0L194 150.2 47.9 171.5c-26.2 3.8-36.7 36.1-17.7 54.6l105.7 103-25 145.5c-4.5 26.3 23.2 46 46.4 33.7L288 439.6l130.7 68.7c23.2 12.2 50.9-7.4 46.4-33.7l-25-145.5 105.7-103c19-18.5 8.5-50.8-17.7-54.6zM388.6 312.3l23.7 138.4L288 385.4l-124.3 65.3 23.7-138.4-100.6-98 139-20.2 62.2-126 62.2 126 139 20.2-100.6 98z">
+                                                </path>
                                             </svg>
                                         </div>
                                         <div class="product__price">
@@ -1567,20 +1641,40 @@
                                     <div class="product__footer">
                                         <h3>Sony WH-CH510</h3>
                                         <div class="rating">
-                                            <svg>
-                                                <use xlink:href="./img/sprite.svg#icon-star-full"></use>
+                                        <svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="star"
+                                                class="svg-inline--fa fa-star fa-w-18" role="img"
+                                                xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512">
+                                                <path fill="currentColor"
+                                                    d="M259.3 17.8L194 150.2 47.9 171.5c-26.2 3.8-36.7 36.1-17.7 54.6l105.7 103-25 145.5c-4.5 26.3 23.2 46 46.4 33.7L288 439.6l130.7 68.7c23.2 12.2 50.9-7.4 46.4-33.7l-25-145.5 105.7-103c19-18.5 8.5-50.8-17.7-54.6L382 150.2 316.7 17.8c-11.7-23.6-45.6-23.9-57.4 0z">
+                                                </path>
                                             </svg>
-                                            <svg>
-                                                <use xlink:href="./img/sprite.svg#icon-star-full"></use>
+                                            <svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="star"
+                                                class="svg-inline--fa fa-star fa-w-18" role="img"
+                                                xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512">
+                                                <path fill="currentColor"
+                                                    d="M259.3 17.8L194 150.2 47.9 171.5c-26.2 3.8-36.7 36.1-17.7 54.6l105.7 103-25 145.5c-4.5 26.3 23.2 46 46.4 33.7L288 439.6l130.7 68.7c23.2 12.2 50.9-7.4 46.4-33.7l-25-145.5 105.7-103c19-18.5 8.5-50.8-17.7-54.6L382 150.2 316.7 17.8c-11.7-23.6-45.6-23.9-57.4 0z">
+                                                </path>
                                             </svg>
-                                            <svg>
-                                                <use xlink:href="./img/sprite.svg#icon-star-full"></use>
+                                            <svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="star"
+                                                class="svg-inline--fa fa-star fa-w-18" role="img"
+                                                xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512">
+                                                <path fill="currentColor"
+                                                    d="M259.3 17.8L194 150.2 47.9 171.5c-26.2 3.8-36.7 36.1-17.7 54.6l105.7 103-25 145.5c-4.5 26.3 23.2 46 46.4 33.7L288 439.6l130.7 68.7c23.2 12.2 50.9-7.4 46.4-33.7l-25-145.5 105.7-103c19-18.5 8.5-50.8-17.7-54.6L382 150.2 316.7 17.8c-11.7-23.6-45.6-23.9-57.4 0z">
+                                                </path>
                                             </svg>
-                                            <svg>
-                                                <use xlink:href="./img/sprite.svg#icon-star-full"></use>
+                                            <svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="star"
+                                                class="svg-inline--fa fa-star fa-w-18" role="img"
+                                                xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512">
+                                                <path fill="currentColor"
+                                                    d="M259.3 17.8L194 150.2 47.9 171.5c-26.2 3.8-36.7 36.1-17.7 54.6l105.7 103-25 145.5c-4.5 26.3 23.2 46 46.4 33.7L288 439.6l130.7 68.7c23.2 12.2 50.9-7.4 46.4-33.7l-25-145.5 105.7-103c19-18.5 8.5-50.8-17.7-54.6L382 150.2 316.7 17.8c-11.7-23.6-45.6-23.9-57.4 0z">
+                                                </path>
                                             </svg>
-                                            <svg>
-                                                <use xlink:href="./img/sprite.svg#icon-star-empty"></use>
+                                            <svg aria-hidden="true" focusable="false" data-prefix="far" data-icon="star"
+                                                class="svg-inline--fa fa-star fa-w-18" role="img"
+                                                xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512">
+                                                <path fill="currentColor"
+                                                    d="M528.1 171.5L382 150.2 316.7 17.8c-11.7-23.6-45.6-23.9-57.4 0L194 150.2 47.9 171.5c-26.2 3.8-36.7 36.1-17.7 54.6l105.7 103-25 145.5c-4.5 26.3 23.2 46 46.4 33.7L288 439.6l130.7 68.7c23.2 12.2 50.9-7.4 46.4-33.7l-25-145.5 105.7-103c19-18.5 8.5-50.8-17.7-54.6zM388.6 312.3l23.7 138.4L288 385.4l-124.3 65.3 23.7-138.4-100.6-98 139-20.2 62.2-126 62.2 126 139 20.2-100.6 98z">
+                                                </path>
                                             </svg>
                                         </div>
                                         <div class="product__price">
@@ -1633,20 +1727,40 @@
                                     <div class="product__footer">
                                         <h3>Samsung Galaxy</h3>
                                         <div class="rating">
-                                            <svg>
-                                                <use xlink:href="./img/sprite.svg#icon-star-full"></use>
+                                        <svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="star"
+                                                class="svg-inline--fa fa-star fa-w-18" role="img"
+                                                xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512">
+                                                <path fill="currentColor"
+                                                    d="M259.3 17.8L194 150.2 47.9 171.5c-26.2 3.8-36.7 36.1-17.7 54.6l105.7 103-25 145.5c-4.5 26.3 23.2 46 46.4 33.7L288 439.6l130.7 68.7c23.2 12.2 50.9-7.4 46.4-33.7l-25-145.5 105.7-103c19-18.5 8.5-50.8-17.7-54.6L382 150.2 316.7 17.8c-11.7-23.6-45.6-23.9-57.4 0z">
+                                                </path>
                                             </svg>
-                                            <svg>
-                                                <use xlink:href="./img/sprite.svg#icon-star-full"></use>
+                                            <svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="star"
+                                                class="svg-inline--fa fa-star fa-w-18" role="img"
+                                                xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512">
+                                                <path fill="currentColor"
+                                                    d="M259.3 17.8L194 150.2 47.9 171.5c-26.2 3.8-36.7 36.1-17.7 54.6l105.7 103-25 145.5c-4.5 26.3 23.2 46 46.4 33.7L288 439.6l130.7 68.7c23.2 12.2 50.9-7.4 46.4-33.7l-25-145.5 105.7-103c19-18.5 8.5-50.8-17.7-54.6L382 150.2 316.7 17.8c-11.7-23.6-45.6-23.9-57.4 0z">
+                                                </path>
                                             </svg>
-                                            <svg>
-                                                <use xlink:href="./img/sprite.svg#icon-star-full"></use>
+                                            <svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="star"
+                                                class="svg-inline--fa fa-star fa-w-18" role="img"
+                                                xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512">
+                                                <path fill="currentColor"
+                                                    d="M259.3 17.8L194 150.2 47.9 171.5c-26.2 3.8-36.7 36.1-17.7 54.6l105.7 103-25 145.5c-4.5 26.3 23.2 46 46.4 33.7L288 439.6l130.7 68.7c23.2 12.2 50.9-7.4 46.4-33.7l-25-145.5 105.7-103c19-18.5 8.5-50.8-17.7-54.6L382 150.2 316.7 17.8c-11.7-23.6-45.6-23.9-57.4 0z">
+                                                </path>
                                             </svg>
-                                            <svg>
-                                                <use xlink:href="./img/sprite.svg#icon-star-full"></use>
+                                            <svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="star"
+                                                class="svg-inline--fa fa-star fa-w-18" role="img"
+                                                xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512">
+                                                <path fill="currentColor"
+                                                    d="M259.3 17.8L194 150.2 47.9 171.5c-26.2 3.8-36.7 36.1-17.7 54.6l105.7 103-25 145.5c-4.5 26.3 23.2 46 46.4 33.7L288 439.6l130.7 68.7c23.2 12.2 50.9-7.4 46.4-33.7l-25-145.5 105.7-103c19-18.5 8.5-50.8-17.7-54.6L382 150.2 316.7 17.8c-11.7-23.6-45.6-23.9-57.4 0z">
+                                                </path>
                                             </svg>
-                                            <svg>
-                                                <use xlink:href="./img/sprite.svg#icon-star-empty"></use>
+                                            <svg aria-hidden="true" focusable="false" data-prefix="far" data-icon="star"
+                                                class="svg-inline--fa fa-star fa-w-18" role="img"
+                                                xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512">
+                                                <path fill="currentColor"
+                                                    d="M528.1 171.5L382 150.2 316.7 17.8c-11.7-23.6-45.6-23.9-57.4 0L194 150.2 47.9 171.5c-26.2 3.8-36.7 36.1-17.7 54.6l105.7 103-25 145.5c-4.5 26.3 23.2 46 46.4 33.7L288 439.6l130.7 68.7c23.2 12.2 50.9-7.4 46.4-33.7l-25-145.5 105.7-103c19-18.5 8.5-50.8-17.7-54.6zM388.6 312.3l23.7 138.4L288 385.4l-124.3 65.3 23.7-138.4-100.6-98 139-20.2 62.2-126 62.2 126 139 20.2-100.6 98z">
+                                                </path>
                                             </svg>
                                         </div>
                                         <div class="product__price">
@@ -1699,20 +1813,40 @@
                                     <div class="product__footer">
                                         <h3>Sony WH-CH510</h3>
                                         <div class="rating">
-                                            <svg>
-                                                <use xlink:href="./img/sprite.svg#icon-star-full"></use>
+                                        <svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="star"
+                                                class="svg-inline--fa fa-star fa-w-18" role="img"
+                                                xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512">
+                                                <path fill="currentColor"
+                                                    d="M259.3 17.8L194 150.2 47.9 171.5c-26.2 3.8-36.7 36.1-17.7 54.6l105.7 103-25 145.5c-4.5 26.3 23.2 46 46.4 33.7L288 439.6l130.7 68.7c23.2 12.2 50.9-7.4 46.4-33.7l-25-145.5 105.7-103c19-18.5 8.5-50.8-17.7-54.6L382 150.2 316.7 17.8c-11.7-23.6-45.6-23.9-57.4 0z">
+                                                </path>
                                             </svg>
-                                            <svg>
-                                                <use xlink:href="./img/sprite.svg#icon-star-full"></use>
+                                            <svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="star"
+                                                class="svg-inline--fa fa-star fa-w-18" role="img"
+                                                xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512">
+                                                <path fill="currentColor"
+                                                    d="M259.3 17.8L194 150.2 47.9 171.5c-26.2 3.8-36.7 36.1-17.7 54.6l105.7 103-25 145.5c-4.5 26.3 23.2 46 46.4 33.7L288 439.6l130.7 68.7c23.2 12.2 50.9-7.4 46.4-33.7l-25-145.5 105.7-103c19-18.5 8.5-50.8-17.7-54.6L382 150.2 316.7 17.8c-11.7-23.6-45.6-23.9-57.4 0z">
+                                                </path>
                                             </svg>
-                                            <svg>
-                                                <use xlink:href="./img/sprite.svg#icon-star-full"></use>
+                                            <svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="star"
+                                                class="svg-inline--fa fa-star fa-w-18" role="img"
+                                                xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512">
+                                                <path fill="currentColor"
+                                                    d="M259.3 17.8L194 150.2 47.9 171.5c-26.2 3.8-36.7 36.1-17.7 54.6l105.7 103-25 145.5c-4.5 26.3 23.2 46 46.4 33.7L288 439.6l130.7 68.7c23.2 12.2 50.9-7.4 46.4-33.7l-25-145.5 105.7-103c19-18.5 8.5-50.8-17.7-54.6L382 150.2 316.7 17.8c-11.7-23.6-45.6-23.9-57.4 0z">
+                                                </path>
                                             </svg>
-                                            <svg>
-                                                <use xlink:href="./img/sprite.svg#icon-star-full"></use>
+                                            <svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="star"
+                                                class="svg-inline--fa fa-star fa-w-18" role="img"
+                                                xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512">
+                                                <path fill="currentColor"
+                                                    d="M259.3 17.8L194 150.2 47.9 171.5c-26.2 3.8-36.7 36.1-17.7 54.6l105.7 103-25 145.5c-4.5 26.3 23.2 46 46.4 33.7L288 439.6l130.7 68.7c23.2 12.2 50.9-7.4 46.4-33.7l-25-145.5 105.7-103c19-18.5 8.5-50.8-17.7-54.6L382 150.2 316.7 17.8c-11.7-23.6-45.6-23.9-57.4 0z">
+                                                </path>
                                             </svg>
-                                            <svg>
-                                                <use xlink:href="./img/sprite.svg#icon-star-empty"></use>
+                                            <svg aria-hidden="true" focusable="false" data-prefix="far" data-icon="star"
+                                                class="svg-inline--fa fa-star fa-w-18" role="img"
+                                                xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512">
+                                                <path fill="currentColor"
+                                                    d="M528.1 171.5L382 150.2 316.7 17.8c-11.7-23.6-45.6-23.9-57.4 0L194 150.2 47.9 171.5c-26.2 3.8-36.7 36.1-17.7 54.6l105.7 103-25 145.5c-4.5 26.3 23.2 46 46.4 33.7L288 439.6l130.7 68.7c23.2 12.2 50.9-7.4 46.4-33.7l-25-145.5 105.7-103c19-18.5 8.5-50.8-17.7-54.6zM388.6 312.3l23.7 138.4L288 385.4l-124.3 65.3 23.7-138.4-100.6-98 139-20.2 62.2-126 62.2 126 139 20.2-100.6 98z">
+                                                </path>
                                             </svg>
                                         </div>
                                         <div class="product__price">
@@ -1765,20 +1899,40 @@
                                     <div class="product__footer">
                                         <h3>Apple iPhone XR</h3>
                                         <div class="rating">
-                                            <svg>
-                                                <use xlink:href="./img/sprite.svg#icon-star-full"></use>
+                                        <svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="star"
+                                                class="svg-inline--fa fa-star fa-w-18" role="img"
+                                                xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512">
+                                                <path fill="currentColor"
+                                                    d="M259.3 17.8L194 150.2 47.9 171.5c-26.2 3.8-36.7 36.1-17.7 54.6l105.7 103-25 145.5c-4.5 26.3 23.2 46 46.4 33.7L288 439.6l130.7 68.7c23.2 12.2 50.9-7.4 46.4-33.7l-25-145.5 105.7-103c19-18.5 8.5-50.8-17.7-54.6L382 150.2 316.7 17.8c-11.7-23.6-45.6-23.9-57.4 0z">
+                                                </path>
                                             </svg>
-                                            <svg>
-                                                <use xlink:href="./img/sprite.svg#icon-star-full"></use>
+                                            <svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="star"
+                                                class="svg-inline--fa fa-star fa-w-18" role="img"
+                                                xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512">
+                                                <path fill="currentColor"
+                                                    d="M259.3 17.8L194 150.2 47.9 171.5c-26.2 3.8-36.7 36.1-17.7 54.6l105.7 103-25 145.5c-4.5 26.3 23.2 46 46.4 33.7L288 439.6l130.7 68.7c23.2 12.2 50.9-7.4 46.4-33.7l-25-145.5 105.7-103c19-18.5 8.5-50.8-17.7-54.6L382 150.2 316.7 17.8c-11.7-23.6-45.6-23.9-57.4 0z">
+                                                </path>
                                             </svg>
-                                            <svg>
-                                                <use xlink:href="./img/sprite.svg#icon-star-full"></use>
+                                            <svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="star"
+                                                class="svg-inline--fa fa-star fa-w-18" role="img"
+                                                xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512">
+                                                <path fill="currentColor"
+                                                    d="M259.3 17.8L194 150.2 47.9 171.5c-26.2 3.8-36.7 36.1-17.7 54.6l105.7 103-25 145.5c-4.5 26.3 23.2 46 46.4 33.7L288 439.6l130.7 68.7c23.2 12.2 50.9-7.4 46.4-33.7l-25-145.5 105.7-103c19-18.5 8.5-50.8-17.7-54.6L382 150.2 316.7 17.8c-11.7-23.6-45.6-23.9-57.4 0z">
+                                                </path>
                                             </svg>
-                                            <svg>
-                                                <use xlink:href="./img/sprite.svg#icon-star-full"></use>
+                                            <svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="star"
+                                                class="svg-inline--fa fa-star fa-w-18" role="img"
+                                                xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512">
+                                                <path fill="currentColor"
+                                                    d="M259.3 17.8L194 150.2 47.9 171.5c-26.2 3.8-36.7 36.1-17.7 54.6l105.7 103-25 145.5c-4.5 26.3 23.2 46 46.4 33.7L288 439.6l130.7 68.7c23.2 12.2 50.9-7.4 46.4-33.7l-25-145.5 105.7-103c19-18.5 8.5-50.8-17.7-54.6L382 150.2 316.7 17.8c-11.7-23.6-45.6-23.9-57.4 0z">
+                                                </path>
                                             </svg>
-                                            <svg>
-                                                <use xlink:href="./img/sprite.svg#icon-star-empty"></use>
+                                            <svg aria-hidden="true" focusable="false" data-prefix="far" data-icon="star"
+                                                class="svg-inline--fa fa-star fa-w-18" role="img"
+                                                xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512">
+                                                <path fill="currentColor"
+                                                    d="M528.1 171.5L382 150.2 316.7 17.8c-11.7-23.6-45.6-23.9-57.4 0L194 150.2 47.9 171.5c-26.2 3.8-36.7 36.1-17.7 54.6l105.7 103-25 145.5c-4.5 26.3 23.2 46 46.4 33.7L288 439.6l130.7 68.7c23.2 12.2 50.9-7.4 46.4-33.7l-25-145.5 105.7-103c19-18.5 8.5-50.8-17.7-54.6zM388.6 312.3l23.7 138.4L288 385.4l-124.3 65.3 23.7-138.4-100.6-98 139-20.2 62.2-126 62.2 126 139 20.2-100.6 98z">
+                                                </path>
                                             </svg>
                                         </div>
                                         <div class="product__price">

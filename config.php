@@ -11,6 +11,7 @@ define('imgIPhone_path','img/products/iPhone/');
 define('imgSS_path','img/products/samsung/');
 
 
+
 $connect = mysqli_connect('localhost','root','','phoneshop');
 // if($connect){
 //     mysqli_query($connect,"SET NAMES 'UTF8'");

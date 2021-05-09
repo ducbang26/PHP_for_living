@@ -31,10 +31,10 @@
                             <a href="<?php echo $level."pages/product.php"?>" class="nav__link">Products</a>
                         </li>
                         <li class="nav__item">
-                            <a href="#" class="nav__link">Blog</a>
+                            <a href="<?php echo $level."pages/all_product.php"?>" class="nav__link">All Product</a>
                         </li>
                         <li class="nav__item">
-                            <a href="#" class="nav__link">Contact</a>
+                            <a href="#" class="nav__link">News</a>
                         </li>
                     </ul>
                 </div>

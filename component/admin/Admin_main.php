@@ -83,7 +83,7 @@
                 <div class="card">
                     <div class="card-header">
                         <h3>Products</h3>
-                        <button>See All <span class="las la-arorw-right"></span></button>
+                        <button> ADD PRODUCT <span class="las la-arorw-right"></span></button>
                     </div>
                     <div class="card-body">
                         <div class="table-responsive">

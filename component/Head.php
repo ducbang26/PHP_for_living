@@ -36,6 +36,10 @@
     {
       echo "Cart";
     }
+    if($isAllProduct==true)
+    {
+      echo "All Product";
+    }
     
     ?>
     </title>

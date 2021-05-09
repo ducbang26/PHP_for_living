@@ -7,6 +7,7 @@
     $isHome=true;
     $isCart=false;
     $isProduct=false;
+    $isAllProduct=false;
 
 
 

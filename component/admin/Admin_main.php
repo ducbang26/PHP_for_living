@@ -6,7 +6,6 @@
     $query = mysqli_query($connect,$sql);
 ?>
 <div class="main-content">
-<<<<<<< HEAD
                 <!-- Header -->    
         <header class="admin_header">
             <h1>
@@ -15,16 +14,6 @@
                 </label>
                 Dashboard
             </h1>
-=======
-    <!-- Header -->
-    <header class="admin_header">
-        <h1>
-            <label for="nav-toggle">
-                <span class="las la-bars"></span>
-            </label>
-            Dashboard
-        </h1>
->>>>>>> 2d935701f91413a8259b9e35d3bf6fcec37f14a1
 
         <div class="search-wrapper">
             <span class="las la-search"></span>
@@ -52,10 +41,6 @@
                     <span class="las la-users"></span>
                 </div>
             </div>
-<<<<<<< HEAD
-        </>
-=======
->>>>>>> 2d935701f91413a8259b9e35d3bf6fcec37f14a1
 
             <div class="card-single">
                 <div>

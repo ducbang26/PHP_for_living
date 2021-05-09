@@ -2459,11 +2459,7 @@ span.dot::before {
     margin-left: 70px;
 }
 
-<<<<<<< HEAD
-  #nav-toggle:checked ~ .main-content .admin-header{
-=======
-#nav-toggle:checked~.main-content header {
->>>>>>> 2d935701f91413a8259b9e35d3bf6fcec37f14a1
+#nav-toggle:checked ~ .main-content .admin-header{
     width: calc(100% - 70px);
     left: 70px;
 }
@@ -2711,16 +2707,9 @@ tr td:last-child {
     .main-content {
         margin-left: 70px;
     }
-<<<<<<< HEAD
-
     .main-content .admin-header{
       width: calc(100%+70px);
       left: 70px;
-=======
-    .main-content header {
-        width: calc(100%+70px);
-        left: 70px;
->>>>>>> 2d935701f91413a8259b9e35d3bf6fcec37f14a1
     }
     .sidebar:hover {
         width: 345px;

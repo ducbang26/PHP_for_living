@@ -7,6 +7,18 @@
 ?>
 <div class="main-content">
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+                <!-- Header -->    
+        <header class="admin_header">
+            <h1>
+                <label for="nav-toggle">
+                    <span class="las la-bars"></span>
+                </label>
+                Dashboard
+            </h1>
+=======
+>>>>>>> dbfd52ded4e76fba2804da4c92cb9e53b861cba5
     <!-- Header -->
     <header class="admin_header">
         <h1>
@@ -15,6 +27,7 @@
             </label>
             Dashboard
         </h1>
+<<<<<<< HEAD
 =======
                 <!-- Header -->    
         <header class="admin_header">
@@ -25,6 +38,9 @@
                 Dashboard
             </h1>
 >>>>>>> 2c62f027a2082eccf74329208c8edd3a49c7ca0f
+=======
+>>>>>>> 2d935701f91413a8259b9e35d3bf6fcec37f14a1
+>>>>>>> dbfd52ded4e76fba2804da4c92cb9e53b861cba5
 
         <div class="search-wrapper">
             <span class="las la-search"></span>
@@ -53,9 +69,15 @@
                 </div>
             </div>
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
         </>
 >>>>>>> 2c62f027a2082eccf74329208c8edd3a49c7ca0f
+=======
+        </>
+=======
+>>>>>>> 2d935701f91413a8259b9e35d3bf6fcec37f14a1
+>>>>>>> dbfd52ded4e76fba2804da4c92cb9e53b861cba5
 
             <div class="card-single">
                 <div>

@@ -5,10 +5,6 @@ $query1 = mysqli_query($connect, $sql1);
 ?>
 <main id="main">
     <div class="container">
-        <!-- Collection -->
-
-
-        <!-- Latest Products -->
         <section class="section latest__products" id="latest">
             <div class="title__container">
                 <div class="section__title active" data-id="Latest Products">
@@ -88,5 +84,4 @@ $query1 = mysqli_query($connect, $sql1);
                 </div>
             </div>
         </section>
-
 </main>

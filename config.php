@@ -13,10 +13,10 @@ define('imgSS_path','img/products/samsung/');
 
 $connect = mysqli_connect('localhost','root','','phoneshop');
 mysqli_query($connect,"SET NAMES 'UTF8'");
-// if($connect){
-//     echo "Ket noi thanh cong ";
-// }
-// else{
-//     echo "ket noi that bai ";
-// }
-// ?>
+if($connect){
+    echo "Ket noi thanh cong ";
+}
+else{
+    echo "ket noi that bai ";
+}
+?>

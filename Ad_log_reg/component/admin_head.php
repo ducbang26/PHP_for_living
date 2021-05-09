@@ -10,18 +10,7 @@ include "./config.php";
 <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title><?php
-    if($isAdmin==true)
-    echo "Admin";
-    if($isAddProduct==true)
-    echo "Product Management";
-    if($isLogin==true)
-    echo "Login";
-    if($isRegister==true)
-    echo "Register";
-    if($isForgetPassword==true)
-    echo "Forget Password";
-    ?></title>
+    <title>Admin</title>
     <meta name="description" content="Ela Admin - HTML5 Admin Template">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 

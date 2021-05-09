@@ -69,6 +69,14 @@
         <div class="footer-bottom__box">
 
         </div>
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+    </div>
+    </div>
+</footer>
+=======
+>>>>>>> 2c62f027a2082eccf74329208c8edd3a49c7ca0f
     </footer>
       <!-- Glide Carousel Script -->
       <script src="https://cdnjs.cloudflare.com/ajax/libs/Glide.js/3.4.1/glide.min.js"></script>
@@ -84,3 +92,7 @@
 </body>
 
 </html>
+<<<<<<< HEAD
+=======
+>>>>>>> vinh_lam_ne
+>>>>>>> 2c62f027a2082eccf74329208c8edd3a49c7ca0f

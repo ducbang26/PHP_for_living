@@ -57,10 +57,14 @@ $query2 = mysqli_query($connect, $sql2);
                                     <div class="product">
 
                                         <div class="product__header">
-                                            <img src="<?php echo $level . imgIPhone_path . $row['image']; ?>" width="" height="" alt="">
+                                            <a href="<?php echo $level . 'pages/product.php?' ?>">
+                                                <img src="<?php echo $level . imgIPhone_path . $row['image']; ?>" width="" height="" alt="">
+                                            </a>
                                         </div>
                                         <div class="product__footer">
-                                            <h3><?php echo $row['name_phone']; ?></h3>
+                                            <a href="<?php echo $level . 'pages/product.php' ?>">
+                                                <h3><?php echo $row['name_phone']; ?></h3>
+                                            </a>
                                             <div class="rating">
                                                 <svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="star" class="svg-inline--fa fa-star fa-w-18" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512">
                                                     <path fill="currentColor" d="M259.3 17.8L194 150.2 47.9 171.5c-26.2 3.8-36.7 36.1-17.7 54.6l105.7 103-25 145.5c-4.5 26.3 23.2 46 46.4 33.7L288 439.6l130.7 68.7c23.2 12.2 50.9-7.4 46.4-33.7l-25-145.5 105.7-103c19-18.5 8.5-50.8-17.7-54.6L382 150.2 316.7 17.8c-11.7-23.6-45.6-23.9-57.4 0z">
@@ -273,19 +277,19 @@ $query2 = mysqli_query($connect, $sql2);
                         <h1 class="primary__title">Phone News</h1>
                     </div>
                 </div>
-            </div>          
+            </div>
             <div class="news__container">
                 <div class="glide" id="glide_5">
                     <div class="glide__track" data-glide-el="track">
                         <ul class="glide__slides">
-                        <?php
-                        $i = 1;
-                        while ($row = mysqli_fetch_assoc($query3)) { ?>
+                            <?php
+                            $i = 1;
+                            while ($row = mysqli_fetch_assoc($query3)) { ?>
                                 <li class="glide__slide">
                                     <div class="new__card">
                                         <div class="card__header">
-                                           
-                                            <img src=" <?php echo $level.img_path.$row["image"]; ?>" alt="">
+
+                                            <img src=" <?php echo $level . img_path . $row["image"]; ?>" alt="">
                                         </div>
                                         <div class="card__footer">
                                             <h3><?php echo $row["title_news"]; ?></h3>

@@ -304,7 +304,6 @@ $query = mysqli_query($connect, $sql);
                             <span>Shipping(+7$)</span>
                         </div>
                     </div>
-
                     <div class="cart__totals">
                         <h3>Cart Totals</h3>
                         <ul>

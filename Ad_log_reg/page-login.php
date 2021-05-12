@@ -56,3 +56,4 @@ include $level.comp_path."admin_head.php";
 
 </body>
 </html>
+    

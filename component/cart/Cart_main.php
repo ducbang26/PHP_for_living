@@ -38,8 +38,9 @@ $query = mysqli_query($connect, $sql);
                                             <div class="price">
                                                 <span class="new__price"><?php echo $row['price']; ?></span>
                                             </div>
+                                        </td>
                                     <th>TOTAL</th>
-                                </tr>
+                                    </tr>
                             </tbody>
                             <tbody>
                                 <tr>

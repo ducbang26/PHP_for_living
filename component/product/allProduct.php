@@ -1,7 +1,36 @@
 <?php
+
+session_start();
+
 require_once $level . "config.php";
 $sql1 = "SELECT * FROM PHONES ";
 $query1 = mysqli_query($connect, $sql1);
+
+if (isset($_POST['add'])) {
+    //print_r($_POST['product_id']);
+    if (isset($_SESSION['cart'])) {
+
+        $item_array_id = array_column($_SESSION['cart'], "product_id");
+        
+        if (in_array($_POST['product_id']. $item_array_id)) {
+            echo "<script>alert('San pham da co trong gio hang')</script>";
+            echo "<script>window.location = 'allProduct.php' </script>"
+        } else {
+            
+            $count = count($_SESSION['cart']);
+            $item_array = array('product_id' => $_POST['product_id']);
+            $_SESSION['cart'][$count] = $item_array;
+            print_r($_SESSION['cart']);
+        }
+
+    } else {
+        $item_array = array('product_id' => $_POST['product_id']);
+
+        $_SESSION['cart'][0] = $item_array;
+        print_r($_SESSION['cart']);
+    }
+}
+
 ?>
 <main id="main">
     <div class="container">
@@ -50,7 +79,8 @@ $query1 = mysqli_query($connect, $sql1);
                                     <div class="product__price">
                                         <h4><?php echo $row['price']; ?></h4>
                                     </div>
-                                    <a href="#"><button type="submit" class="product__btn">Add To Cart</button></a>
+                                    <a href="#"><button type="submit" class="product__btn" name="add">Add To Cart</button></a>
+                                    <input type="hiden" name="product_id" value="<?php $row['product_id'];?>">
                                 </div>
                                 <ul>
                                     <li>
